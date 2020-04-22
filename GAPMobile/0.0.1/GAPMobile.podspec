@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 Global Advertising Platform, mobile sdk for iOS
-                    DESC
+                  DESC
 
   s.homepage         = 'https://github.com/Rakuten-Advertising-Developers/Ad-iOS-SDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
