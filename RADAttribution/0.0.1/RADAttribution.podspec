@@ -31,9 +31,5 @@ Rakuten Advertising Attribution iOS SDK, tracking events and deeplinking
   s.swift_version = '5.0'
 
   s.source_files = 'RADAttribution/Source/**/*'
-  
-  
-  
-  
 
 end
