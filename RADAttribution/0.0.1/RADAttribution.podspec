@@ -31,23 +31,4 @@ Rakuten advertising attribution SDK allows advertisers to track app installs and
   
   s.dependency 'SwiftJWT'
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 end
