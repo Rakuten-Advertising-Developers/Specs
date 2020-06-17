@@ -25,11 +25,10 @@ Global Advertising Platform, mobile sdk for iOS
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'src/RakutenAdvertisingAds/Sources/**/*.swift'
+  s.source_files = 'Source/Core/**/*.swift', 'Source/OpenRTB',  'Source/DynamicNativeAds/**/*.swift'
   
   s.static_framework = true
   
   s.frameworks = 'UIKit', 'WebKit'
-  s.dependency 'Google-Mobile-Ads-SDK', '~> 7.58.0'
 
 end
