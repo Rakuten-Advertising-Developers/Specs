@@ -31,6 +31,4 @@ Global Advertising Platform, mobile sdk for iOS
   
   s.frameworks = 'UIKit', 'WebKit'
 
-  
-  
 end
