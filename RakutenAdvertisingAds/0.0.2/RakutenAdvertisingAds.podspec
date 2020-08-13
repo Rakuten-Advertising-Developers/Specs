@@ -25,15 +25,19 @@ Global Advertising Platform, mobile sdk for iOS
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'Source/Core/**/*.swift', 'Source/OpenRTB/**/*.swift',  'Source/DynamicNativeAds/**/*.swift'
-
   s.static_framework = true
-  s.frameworks = 'UIKit', 'WebKit'
-  s.dependency 'SWXMLHash', '~> 5.0.0'
+  s.default_subspec = 'Core'
 
-  #s.subspec 'AdMobMediation' do |subspec|
-  #  subspec.source_files = 'Source/Mediation/AdMob/**/*.swift'
-  #  subspec.dependency 'Google-Mobile-Ads-SDK'
-  #end
+  s.subspec 'Core' do |subspec|
+    subspec.source_files = 'Source/Core/**/*.swift', 'Source/OpenRTB/**/*.swift',  'Source/DynamicNativeAds/**/*.swift'
+    subspec.frameworks = 'UIKit', 'WebKit'
+    subspec.dependency 'SWXMLHash', '~> 5.0.0'
+  end
+
+  s.subspec 'AdMobMediation' do |subspec|
+    subspec.source_files = 'Source/Mediation/AdMob/**/*.swift'
+    subspec.dependency 'RakutenAdvertisingAds/Core'
+    subspec.dependency 'Google-Mobile-Ads-SDK'
+  end
 
 end
