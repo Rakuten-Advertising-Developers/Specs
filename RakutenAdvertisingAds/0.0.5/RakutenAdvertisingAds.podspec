@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary          = 'Rakuten Advertising Ads'
 
   s.description      = <<-DESC
-Global Advertising Platform, mobile sdk for iOS
+Global Advertising Platform, mobile sdk for iOS 
                     DESC
 
   s.homepage         = 'https://github.com/Rakuten-Advertising-Developers/RakutenAdvertisingAds-iOS-SDK'
