@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary          = 'Rakuten Advertising Ads'
 
   s.description      = <<-DESC
-Global Advertising Platform, mobile sdk for iOS 
+Global Advertising Platform, mobile sdk for iOS
                     DESC
 
   s.homepage         = 'https://github.com/Rakuten-Advertising-Developers/RakutenAdvertisingAds-iOS-SDK'
@@ -21,8 +21,8 @@ Global Advertising Platform, mobile sdk for iOS
   s.author           = 'Rakuten Advertising'
   s.source           = { :git => 'https://github.com/Rakuten-Advertising-Developers/RakutenAdvertisingAds-iOS-SDK.git', :tag => s.version.to_s }
 
-  s.platform = :ios, "10.0"
-  s.ios.deployment_target = '10.0'
+  s.platform = :ios, "11.0"
+  s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
 
   s.static_framework = true
